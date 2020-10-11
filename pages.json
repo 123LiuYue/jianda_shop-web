@@ -1,0 +1,94 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index"
+		},
+		{
+			"path": "pages/cart/cart",
+			"style":{
+				"navigationBarTitleText":"购物车"
+			}
+		},
+		{
+			"path": "pages/member/member",
+			"style":{
+				"navigationBarTitleText":"我的"
+			}
+		},
+		{
+			"path": "pages/news/news",
+			"style":{
+				"navigationBarTitleText":"咨询"
+			}
+		},
+		{
+			"path": "pages/goods/goods",
+			"style":{
+				"navigationBarTitleText":"商品列表",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/contact/contact",
+			"style":{
+				"navigationBarTitleText":"联系我们"
+			}
+		},
+		{
+			"path": "pages/pics/pics",
+			"style":{
+				"navigationBarTitleText":"社区图片"
+			}
+		},
+		{
+			"path": "pages/goods-detail/goods-detail",
+			"style":{
+				"navigationBarTitleText":"商品详情"
+			}
+		},
+		{
+			"path": "pages/news-detail/news-detail",
+			"style":{
+				"navigationBarTitleText":"咨询详情"
+			}
+		}
+		
+	],
+	"globalStyle": {	//全局配置
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "建达商城",
+		"navigationBarBackgroundColor": "#B50E03",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"selectedColor":"#B50E03",		//修改选中的文字颜色
+		"color":"#C0C0C0",			//修改未选中的文字颜色	
+		"list":[
+			{
+				"text":"首页",
+				"pagePath":"pages/index/index",			//点击跳转的页面
+				"iconPath":"static/icon/index.png",   //未选中的图标
+				"selectedIconPath":"static/icon/index2.png"	//选中的图标
+			},
+			{
+				"text":"资讯",
+				"pagePath":"pages/news/news",			//点击跳转的页面
+				"iconPath":"static/icon/classify.png",   //未选中的图标
+				"selectedIconPath":"static/icon/classify2.png"	//选中的图标
+			},
+			{
+				"text":"购物车",
+				"pagePath":"pages/cart/cart",			//点击跳转的页面
+				"iconPath":"static/icon/shopping.png",   //未选中的图标
+				"selectedIconPath":"static/icon/shopping2.png"	//选中的图标
+			},
+			{
+				"text":"我的",
+				"pagePath":"pages/member/member",			//点击跳转的页面
+				"iconPath":"static/icon/contact.png",   //未选中的图标
+				"selectedIconPath":"static/icon/contact2.png"	//选中的图标
+			}
+		]
+	}
+}
+	

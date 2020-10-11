@@ -1,0 +1,1 @@
+<view class="contact"><image class="img" src="../../static/contact/gywmban.jpg"></image><view class="info"><view data-event-opts="{{[['tap',[['phone',['$event']]]]]}}" bindtap="__e">联系电话：400-123-3232 ( 点击拨打 )</view><view>联系地址：陕西省西安市新城区环城北路西铁公寓</view><map class="map" markers="{{markers}}"></map></view></view>
